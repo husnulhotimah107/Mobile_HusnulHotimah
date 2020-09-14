@@ -7,28 +7,63 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="98dp"
+        android:layout_height="24dp"
         android:text="BIODATA DIRI!"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.018" />
+        app:layout_constraintVertical_bias="0.042" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="334dp"
+        android:src="@drawable/gambar1"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="30dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nama      : Husnul Hotimah"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="56dp" />
+        tools:layout_editor_absoluteY="338dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TTl       : Probolinggo, 10 Juli 2000"
+        android:text="TTL    : Probolinggo, 10 Juli 2000"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="85dp" />
+        tools:layout_editor_absoluteY="378dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat       : Dsn. Gudang Kec.Tegalsiwalan Kab. Probolinggo "
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="423dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email     : husnulhotimah9c@gmail.com"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jurusan   : Teknologi Informasi"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prodi     : D-IV Teknik Informatika"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="559dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
